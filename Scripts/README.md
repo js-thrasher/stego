@@ -1,1 +1,1 @@
-Scripts for activating venv
+ignore
