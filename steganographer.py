@@ -9,7 +9,7 @@ def main():
     if mode == 'e':
         message = input('Enter the message you wish to embed: ')
         encode(pic, message)
-        io.imsave('photo.png', pic, )
+        io.imsave('photo.png', pic)
     elif mode == 'd':
         print(decode(pic))
 
